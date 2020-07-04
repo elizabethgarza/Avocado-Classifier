@@ -1,6 +1,6 @@
 # Avocado Classifier
 
-## Purpose
+## Purpose statement
 
 The purpose of this project is: 
 1. to theoretically examine the extent to which a logistic regression model with a neural network can classify images. 
@@ -9,7 +9,7 @@ The purpose of this project is:
    - creating, reshaping, broadcasting and performing mathematical operations with vector arrays using `NumPy`; and
    - combining the different parts of a shallow neural network algorithm into a class.
 
-## Data
+## Description of data
 
 The data comes from a directory called [fruit-360 | Kaggle](https://www.kaggle.com/moltean/fruits) and consists of the following features: 
 - 297 images were used in total, with 167 images of avocados, and 130 images of other miscellaneous fruits and vegetables. 
@@ -20,9 +20,9 @@ The data comes from a directory called [fruit-360 | Kaggle](https://www.kaggle.c
 
 ![Image 7-4-20 at 6 45 AM](https://user-images.githubusercontent.com/43279348/86510908-25944300-bdc2-11ea-90cb-70bc1108c024.jpg)
 
-## Logistic regression with a neural network algorithm
+## Description of algorithm.  
 
-The building blocks of the algorithm consist of the following:
+The building blocks for logistic regression with a neural network algorithm consist of the following:
 
 **I.  Initialize weight and bias parameters.**
 
