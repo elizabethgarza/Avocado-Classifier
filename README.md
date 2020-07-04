@@ -46,11 +46,11 @@ Compute the derivatives of *w* and *b*:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=(5)&space;\quad&space;\quad&space;\frac{dJ}{dw}=\frac{1}{m}X(A-Y)^{(T)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(5)&space;\quad&space;\quad&space;\frac{dJ}{dw}=\frac{1}{m}X(A-Y)^{(T)}" title="(5) \quad \quad \frac{dJ}{dw}=\frac{1}{m}X(A-Y)^{(T)}" /></a>
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=(2)&space;\quad&space;\quad&space;\hat{y}^{(i)}&space;=&space;a^{(i)}&space;=&space;\sigma&space;(z^{(i)})&space;=&space;\frac{1}{1&space;-&space;e^{-(z^{(i)})}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(2)&space;\quad&space;\quad&space;\hat{y}^{(i)}&space;=&space;a^{(i)}&space;=&space;\sigma&space;(z^{(i)})&space;=&space;\frac{1}{1&space;-&space;e^{-(z^{(i)})}}" title="(2) \quad \quad \hat{y}^{(i)} = a^{(i)} = \sigma (z^{(i)}) = \frac{1}{1 - e^{-(z^{(i)})}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=(6)&space;\quad&space;\quad&space;\frac{dJ}{db}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(6)&space;\quad&space;\quad&space;\frac{dJ}{db}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})" title="(6) \quad \quad \frac{dJ}{db}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})" /></a>
 
 #### IV.  Update weight and bias parameters, using gradient descent to minimize the cost function. 
 
-Update *w* and *b* parameters by computing:
+Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the learning rate:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=(7)&space;\quad&space;\quad&space;w&space;=&space;w&space;-&space;(\alpha&space;*dw)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(7)&space;\quad&space;\quad&space;w&space;=&space;w&space;-&space;(\alpha&space;*dw)" title="(7) \quad \quad w = w - (\alpha *dw)" /></a>
 
