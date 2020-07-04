@@ -14,6 +14,8 @@ The purpose of this project is:
 The data comes from a directory called [fruit-360 | Kaggle](https://www.kaggle.com/moltean/fruits) and consists of the following features: 
 - 297 images were used in total, with 167 images of avocados, and 130 images of other miscellaneous fruits and vegetables. 
 - each square image is of shape (100, 100, 3) where 3 is for the 3 channels on the RGC scale.  
-- 
+
+![Image 7-4-20 at 6 45 AM](https://user-images.githubusercontent.com/43279348/86510908-25944300-bdc2-11ea-90cb-70bc1108c024.jpg)
+
 
 
