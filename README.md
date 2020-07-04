@@ -24,9 +24,9 @@ The data comes from a directory called [fruit-360 | Kaggle](https://www.kaggle.c
 
 The building blocks of the algorithm consist of the following:
 
-   **I.  Initialize weight and bias parameters.**
+**I.  Initialize weight and bias parameters.**
 
-   **II.  Instantiate forwad propagation to compute cost.** 
+**II.  Instantiate forwad propagation to compute cost.** 
 
    For each training example, *i*, compute: 
 
@@ -40,7 +40,7 @@ Then, compute the cost function by taking the average of *(3)* for all training 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=(4)&space;\quad&space;\quad&space;J=-\frac{1}{m}\sum_{i=1}^{m}y^{(i)}\log&space;(a^{(i)})&space;-&space;(1-y^{(i)})\log&space;(1-a^{(i)})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(4)&space;\quad&space;\quad&space;J=-\frac{1}{m}\sum_{i=1}^{m}y^{(i)}\log&space;(a^{(i)})&space;-&space;(1-y^{(i)})\log&space;(1-a^{(i)})" title="(4) \quad \quad J=-\frac{1}{m}\sum_{i=1}^{m}y^{(i)}\log (a^{(i)}) - (1-y^{(i)})\log (1-a^{(i)})" /></a>
 
-#### III.  Instantiate backward propagation to compute gradient descent. 
+**III.  Instantiate backward propagation to compute gradient descent.** 
 
 Compute the derivatives of *w* and *b*:
 
@@ -48,7 +48,7 @@ Compute the derivatives of *w* and *b*:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=(6)&space;\quad&space;\quad&space;\frac{dJ}{db}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(6)&space;\quad&space;\quad&space;\frac{dJ}{db}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})" title="(6) \quad \quad \frac{dJ}{db}=\frac{1}{m}\sum_{i=1}^{m}(a^{(i)}-y^{(i)})" /></a>
 
-#### IV.  Update weight and bias parameters, using gradient descent to minimize the cost function. 
+**IV.  Update weight and bias parameters, using gradient descent to minimize the cost function.** 
 
 Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the learning rate:
 
@@ -56,7 +56,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=(8)&space;\quad&space;\quad&space;b&space;=&space;b&space;-&space;(\alpha&space;*db)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(8)&space;\quad&space;\quad&space;b&space;=&space;b&space;-&space;(\alpha&space;*db)" title="(8) \quad \quad b = b - (\alpha *db)" /></a>
 
-#### V.  Iterate over II-IV to optimize your parameters.
+**V.  Iterate over II-IV to optimize your parameters.**
 
 
 
