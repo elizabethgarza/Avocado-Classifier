@@ -24,13 +24,13 @@ The data comes from a directory called [fruit-360 | Kaggle](https://www.kaggle.c
 
 The building blocks for logistic regression with a neural network algorithm consist of the following:
 
-**I.  Initialize weight and bias parameters.**
+**I.  Initialize weight and bias parameters, *w* and *b*.**
 
 **II.  Instantiate forwad propagation to compute cost.** 
 
    For each training example, *i*, compute: 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=(1)&space;\quad&space;\quad&space;z^{(i)}&space;=w^{T}x^{(i)}&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(1)&space;\quad&space;\quad&space;z^{(i)}&space;=w^{T}x^{(i)}&plus;b" title="(1) \quad \quad z^{(i)} =w^{T}x^{(i)}+b" /></a> 
+<a href="https://www.codecogs.com/eqnedit.php?latex=(1)&space;\quad&space;\quad&space;z^{(i)}&space;=w^{T}x^{(i)}&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(1)&space;\quad&space;\quad&space;z^{(i)}&space;=w^{T}x^{(i)}&plus;b" title="(1) \quad \quad z^{(i)} =w^{T}x^{(i)}+b" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=(2)&space;\quad&space;\quad&space;\hat{y}^{(i)}&space;=&space;a^{(i)}&space;=&space;\sigma&space;(z^{(i)})&space;=&space;\frac{1}{1&space;-&space;e^{-(z^{(i)})}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(2)&space;\quad&space;\quad&space;\hat{y}^{(i)}&space;=&space;a^{(i)}&space;=&space;\sigma&space;(z^{(i)})&space;=&space;\frac{1}{1&space;-&space;e^{-(z^{(i)})}}" title="(2) \quad \quad \hat{y}^{(i)} = a^{(i)} = \sigma (z^{(i)}) = \frac{1}{1 - e^{-(z^{(i)})}}" /></a>
 
