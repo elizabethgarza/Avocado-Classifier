@@ -1,4 +1,4 @@
-# Avocado Classifier | Logistic regression with a neural network model
+# Fruit Classifier | Logistic regression with a neural network model
 
 ## Purpose statement
 
