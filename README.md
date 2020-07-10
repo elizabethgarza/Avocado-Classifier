@@ -58,7 +58,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 **V.  Iterate over II-IV to optimize your parameters.**
 
-## To make your own fruit classifier and make a prediction...
+## Usage
 
 **What to do.**
 
