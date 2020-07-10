@@ -80,7 +80,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       
    - E.g. If you are training your model to classify an `Avocado`, and you want the model to predict whether or not your image of a strawberry, `Strawberry.jpeg`, is an avocado, your final command should look something like: 
     
-      ```python3 predict.py 2000 .0007 ~/Desktop/FruitClassifier Avocado ~/Desktop/FruitClassifier/Strawberry.jpeg```
+      ```python3  predict.py  2000  .0007  ~/Desktop/FruitClassifier  Avocado  ~/Desktop/FruitClassifier/Strawberry.jpeg```
       
    - After running the command above, your screen should look something like: 
    
@@ -110,8 +110,5 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
  
 **Some tips:** 
 
-  - Recommended `number_of_iterations` for an `Avocado` classifier: 2000. 
-  - Recommended `learning_rate` for an `Avocado` classifier: .0007.
   - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.  Numbers will vary depending on the fruit you choose to train your model to classify.
-  - You can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory. 
   - It will take between 2-3 minutes for the program to run with the parameters recommended above. 
