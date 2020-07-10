@@ -62,7 +62,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 Got to the command line and run the following:
 
-- ````git clone https://github.com/elizabethgarza/FruitClassifier.git```
+    ```git clone https://github.com/elizabethgarza/FruitClassifier.git```
 
 
 
