@@ -63,16 +63,12 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 - [ ] Run the following commands:
 
       git clone https://github.com/elizabethgarza/FruitClassifier.git
-      cd FruitClassifier
+      cd ./FruitClassifier
       curl -C - https://www.kaggle.com/moltean/fruits/5857-1166105-bundle-archive.zip -o "fruits-360.gz"
     
-- [ ] Go to the .../FruitClassifier directory and click on `fruits-360.gz` to decompress the file. 
+- [ ] Go to the ./FruitClassifier directory and click on `fruits-360.gz` to decompress the file. 
 
-- [ ] Drag the image you want to classify into the .../FruitClassifier directory. 
-
-- [ ] If you are not already in the .../FruitClassifier directory, run: 
-
-       cd */FruitClassifier
+- [ ] Drag the image you want to classify into the ./FruitClassifier directory. 
       
 - [ ] Run the following command:
 
