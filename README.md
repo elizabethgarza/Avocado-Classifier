@@ -64,23 +64,23 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 - [ ] Run the following commands, one at a time, so that the cloned repo, `FruitClassifier`, appears on your Desktop:
 
-      cd ~/Desktop
-      git clone https://github.com/elizabethgarza/FruitClassifier.git
-      cd ~/Desktop/FruitClassifier
+      % cd ~/Desktop
+      % git clone https://github.com/elizabethgarza/FruitClassifier.git
+      % cd ~/Desktop/FruitClassifier
     
 - [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Locate the file in `~/Downloads` and double-click to decompress.  Then run: 
 
-      mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
+      % mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
 
 - [ ] Drag the image you want to classify into the `FruitClassifier` directory. 
 
 - [ ] Run the following command:
 
-      python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
+      % python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
       
    - E.g. If you are training your model to classify an `Avocado`, and you want the model to predict whether or not your image of a strawberry, `Strawberry.jpeg`, is an avocado, your final command should look something like: 
     
-      ```python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
+      ```% python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
       
    - After running the command above, your screen should look something like: 
    
@@ -107,16 +107,16 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
          test accuracy: 56.36363636363637 %
          Prediction: Not a/an Avocado```
 
-- [ ] Example run-through of training a model to classify avocados, and then making a prediction on the image, `Strawberry.jpeg`.  Feel free to copy and paste commands, one at a time:** 
+**Example:**
 
-      cd ~/Desktop
-      git clone https://github.com/elizabethgarza/FruitClassifier.git
-      cd ~/Desktop/FruitClassifier
+      % cd ~/Desktop
+      % git clone https://github.com/elizabethgarza/FruitClassifier.git
+      % cd ~/Desktop/FruitClassifier
 
       #...Download the data at https://www.kaggle.com/moltean/fruits/download and decompress. 
 
-      mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
-      python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
+      % mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
+      % python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
 
 **Some tips:** 
 
