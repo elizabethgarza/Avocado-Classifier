@@ -62,7 +62,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 **What to do.**
 
-- [ ] Run the following commands so that the cloned repo, `FruitClassifier`, appears on your Desktop:
+- [ ] Run the following commands, one at a time, so that the cloned repo, `FruitClassifier`, appears on your Desktop:
 
       cd ~/Desktop
       git clone https://github.com/elizabethgarza/FruitClassifier.git
@@ -106,7 +106,6 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
          train accuracy: 94.06392694063928 %
          test accuracy: 56.36363636363637 %
          Prediction: Not a/an Avocado```
-   
  
 **Some tips:** 
 
