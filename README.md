@@ -110,5 +110,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
  
 **Some tips:** 
 
-  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.  Numbers will vary depending on the fruit you choose to train your model to classify.
+  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.  Numbers will vary depending on the fruit you choose to train your model to classify. 
+  - `number_of_iterations` that have worked for me fall within the range 2000-8000. 
+  - `learning_rate`s that have worked for me fall vary quite a bit.  I have been starting with .0005, and then I adjust as I see fit.  If I see a spike upwards after the first 100 iterations, I know that I need to lower the `learning_rate`.   
   - It will take between 2-3 minutes for the program to run with a data set of ~300 images and 2000 iterations.
