@@ -58,7 +58,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 **V.  Iterate over II-IV to optimize your parameters.**
 
-### To make your own fruit classifier and make a prediction...
+## To make your own fruit classifier and make a prediction...
 
 - [ ] Run the following commands so that the cloned repo, `FruitClassifier`, appears on your Desktop:
 
@@ -76,12 +76,12 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
       python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
  
- #### Tips: 
-  - recommended `number_of_iterations`: 2000
-  - recommended `learning_rate`: .0007
-  - feel free to experiment with different `number_of_iterations` and `learning_rate`s
-  - you can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory 
-  - It will take between 2-4 minutes for the program to run 
+- Some tips: 
+  - Recommended `number_of_iterations`: 2000
+  - Recommended `learning_rate`: .0007
+  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.
+  - You can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory. 
+  - It will take between 2-3 minutes for the program to run with the parameters recommended above. 
   - Your screen will look something like this:  
   
       ```Cost after iteration 100: nan
