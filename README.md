@@ -76,7 +76,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
       python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
  
- ## Tips: 
+ #### Tips: 
   - recommended `number_of_iterations`: 2000
   - recommended `learning_rate`: .0007
   - feel free to experiment with different `number_of_iterations` and `learning_rate`s
