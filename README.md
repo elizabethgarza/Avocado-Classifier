@@ -113,7 +113,8 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       % git clone https://github.com/elizabethgarza/FruitClassifier.git
       % cd ~/Desktop/FruitClassifier
 
-      #...Download the data at https://www.kaggle.com/moltean/fruits/download and decompress. 
+  ...Download the data at https://www.kaggle.com/moltean/fruits/download and decompress. 
+  ...Drag an image for your model to predict into ~/Desktop/FruitClassifier.  (In this example, this has already been done for you.)
 
       % mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
       % python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
