@@ -63,17 +63,19 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 - [ ] Run the following commands:
 
       git clone https://github.com/elizabethgarza/FruitClassifier.git
-      cd ./FruitClassifier
+      cd ~/Desktop/FruitClassifier
     
-- [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Then, run: 
+- [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Locate the file in `./Downloads` and double-click to decompress.  Then, run: 
 
-      mv ~/Downloads/5857-1166105-bundle-archive.zip ~/FruitClassifier/fruits-360
+      mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
 
-- [ ] Drag the image you want to classify into the ./FruitClassifier directory. 
+- [ ] Drag the image you want to classify into the FruitClassifier directory. 
+
+      mv ~/your_predict_image_path ~/Desktop/FruitClassifier
       
 - [ ] Run the following command:
 
-      python3  predict.py  ./FruitClassifier  fruit_that_you_want_to_classify   number_of_iterations  learning_rate predict_image_path
+      python3  predict.py  ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   number_of_iterations  learning_rate  ~/Desktop/FruitClassifier/your_predict_image_path
 
   
     
