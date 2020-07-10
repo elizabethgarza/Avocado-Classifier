@@ -60,9 +60,30 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 ### To make a prediction...
 
-Got to the command line and run the following:
+- [ ] Run the following commands:
 
-    ```git clone https://github.com/elizabethgarza/FruitClassifier.git```
+      git clone https://github.com/elizabethgarza/FruitClassifier.git
+      cd FruitClassifier
+      curl -C - https://www.kaggle.com/moltean/fruits/5857-1166105-bundle-archive.zip -o "fruits-360.gz"
+    
+- [ ] Click on `fruits-360.gz` to decompress the file. 
+
+- [ ] Drag the image you want to classify into `FruitClassifier` and run: 
+
+- [ ] If you are not already in the \*/FruitClassifier directory, run: 
+
+      cd */FruitClassifier
+      
+- [ ] Run the following command:
+
+    python3 + predict.py + your_current_directory + your_chosen_fruit + number_of_iterations + learning_rate + image_path
+
+  
+    
+    
+    
+   
+
 
 
 
