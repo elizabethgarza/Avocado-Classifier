@@ -65,7 +65,9 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       git clone https://github.com/elizabethgarza/FruitClassifier.git
       cd ./FruitClassifier
     
-- [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Then, uncompress the file titled, `5857-1166105-bundle-archive.zip` by clicking on the filename.
+- [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Then, run: 
+
+      mv ~/Downloads/5857-1166105-bundle-archive.zip ~/FruitClassifier/fruits-360
 
 - [ ] Drag the image you want to classify into the ./FruitClassifier directory. 
       
