@@ -60,6 +60,8 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 ## To make your own fruit classifier and make a prediction...
 
+**What to do.**
+
 - [ ] Run the following commands so that the cloned repo, `FruitClassifier`, appears on your Desktop:
 
       cd ~/Desktop
@@ -70,15 +72,16 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
       mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
 
-- [ ] Drag the image you want to classify into the `FruitClassifier` directory. Be sure to 
+- [ ] Drag the image you want to classify into the `FruitClassifier` directory. 
 
 - [ ] Run the following command:
 
       python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
  
-- Some tips: 
-  - Recommended `number_of_iterations`: 2000
-  - Recommended `learning_rate`: .0007
+**Some tips:** 
+
+  - Recommended `number_of_iterations`: 2000.
+  - Recommended `learning_rate`: .0007.
   - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.
   - You can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory. 
   - It will take between 2-3 minutes for the program to run with the parameters recommended above. 
@@ -106,21 +109,3 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
          train accuracy: 94.06392694063928 %
          test accuracy: 56.36363636363637 %
          Prediction: Not a/an Avocado```
-
-  
-  
-  
-      
- 
-
-  
-    
-    
-    
-   
-
-
-
-
-
-
