@@ -41,7 +41,7 @@ def get_true_data(directory: str, fruit: str) -> Vector:
                 if im == ".DS_Store": 
                     continue 
                 else:
-                    end_path = start_path + f"/{im}/fruits-360/Test/{fruit}/{im}"
+                    end_path = start_path + f"/{im}"
                     im = Image.open(end_path, 'r')
                     width, height = im.size
                     im_pixels = np.array(im.getdata())
@@ -84,7 +84,7 @@ def get_false_data(directory: str, fruit: str) -> Vector:
                 i+=1
                 if i>1:
                     continue
-                end_path = start_path + f"/{im}/fruits-360/Test/{sub_directory}/{im}"
+                end_path = start_path + f"/{im}"
                 im = Image.open(end_path, 'r')
                 width, height = im.size
                 im_pixels = np.array(im.getdata())
