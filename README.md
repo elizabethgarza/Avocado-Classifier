@@ -66,15 +66,50 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       git clone https://github.com/elizabethgarza/FruitClassifier.git
       cd ~/Desktop/FruitClassifier
     
-- [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Locate the file in `~/Downloads` and double-click to decompress.  Then move the `fruits-360` directory into `FruitClassifier` by running: 
+- [ ] Download the data at https://www.kaggle.com/moltean/fruits/download. Locate the file in `~/Downloads` and double-click to decompress.  Then run: 
 
       mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
 
-- [ ] Drag the image you want to classify into the `FruitClassifier` directory. 
+- [ ] Drag the image you want to classify into the `FruitClassifier` directory. Be sure to 
 
 - [ ] Run the following command:
 
       python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
+ 
+ ## Tips: 
+  - recommended `number_of_iterations`: 2000
+  - recommended `learning_rate`: .0007
+  - feel free to experiment with different `number_of_iterations` and `learning_rate`s
+  - you can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory 
+  - It will take between 2-4 minutes for the program to run 
+  - Your screen will look something like this:  
+  
+      ```Cost after iteration 100: nan
+         Cost after iteration 200: nan
+         Cost after iteration 300: nan
+         Cost after iteration 400: nan
+         Cost after iteration 500: nan
+         Cost after iteration 600: nan
+         Cost after iteration 700: nan
+         Cost after iteration 800: nan
+         Cost after iteration 900: nan
+         Cost after iteration 1000: nan
+         Cost after iteration 1100: nan
+         Cost after iteration 1200: nan
+         Cost after iteration 1300: nan
+         Cost after iteration 1400: nan
+         Cost after iteration 1500: nan
+         Cost after iteration 1600: nan
+         Cost after iteration 1700: nan
+         Cost after iteration 1800: nan
+         Cost after iteration 1900: nan
+         train accuracy: 94.06392694063928 %
+         test accuracy: 56.36363636363637 %
+         Prediction: Not a/an Avocado```
+
+  
+  
+  
       
  
 
