@@ -58,6 +58,12 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 **V.  Iterate over II-IV to optimize your parameters.**
 
+### To make a prediction...
+
+Got to the command line and run the following:
+
+- ````git clone https://github.com/elizabethgarza/FruitClassifier.git```
+
 
 
 
