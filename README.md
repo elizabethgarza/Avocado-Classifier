@@ -77,16 +77,13 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 - [ ] Run the following command:
 
       python3  predict.py  number_of_iterations  learning_rate   ~/Desktop/FruitClassifier  fruit_that_you_want_to_classify   ~/Desktop/FruitClassifier/your_predict_image_path 
- 
-**Some tips:** 
-
-  - Recommended `number_of_iterations` for an `Avocado` classifier: 2000. 
-  - Recommended `learning_rate` for an `Avocado` classifier: .0007.
-  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.  Numbers will vary depending on the fruit you choose to train your model to classify.
-  - You can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory. 
-  - It will take between 2-3 minutes for the program to run with the parameters recommended above. 
-  - If you are training your model to classify an `Avocado`, your screen will look something like this:  
-  
+      
+   - E.g. If you are training your model to classify an `Avocado`, and you want the model to predict whether or not your image of a strawberry, `Strawberry.jpeg`, is an avocado, your final command should look something like: 
+    
+      python3 predict.py 2000 .0007 ~/Desktop/FruitClassifier Avocado ~/Desktop/FruitClassifier/Strawberry.jpeg
+      
+   - After running the command above, your screen should look something like: 
+   
       ```Cost after iteration 100: nan
          Cost after iteration 200: nan
          Cost after iteration 300: nan
@@ -109,3 +106,12 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
          train accuracy: 94.06392694063928 %
          test accuracy: 56.36363636363637 %
          Prediction: Not a/an Avocado```
+   
+ 
+**Some tips:** 
+
+  - Recommended `number_of_iterations` for an `Avocado` classifier: 2000. 
+  - Recommended `learning_rate` for an `Avocado` classifier: .0007.
+  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.  Numbers will vary depending on the fruit you choose to train your model to classify.
+  - You can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory. 
+  - It will take between 2-3 minutes for the program to run with the parameters recommended above. 
