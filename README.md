@@ -80,12 +80,12 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
  
 **Some tips:** 
 
-  - Recommended `number_of_iterations`: 2000.
-  - Recommended `learning_rate`: .0007.
-  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.
+  - Recommended `number_of_iterations` for an `Avocado` classifier: 2000. 
+  - Recommended `learning_rate` for an `Avocado` classifier: .0007.
+  - Feel free to experiment with different `number_of_iterations` and `learning_rate`s.  Numbers will vary depending on the fruit you choose to train your model to classify.
   - You can find `your_predicted_image_path` by looking for the fruit name within the `FruitClassifier` directory. 
   - It will take between 2-3 minutes for the program to run with the parameters recommended above. 
-  - Your screen will look something like this:  
+  - If you are training your model to classify an `Avocado`, your screen will look something like this:  
   
       ```Cost after iteration 100: nan
          Cost after iteration 200: nan
