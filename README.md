@@ -76,7 +76,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       
 - [ ] Run the following command:
 
-      python3  predict.py  your_current_directory  your_chosen_fruit   number_of_iterations  learning_rate   image_path
+      python3  predict.py  FruitClassifier_directory_path  fruit_that_you_want_to_classify   number_of_iterations  learning_rate   + predict_image_path
 
   
     
