@@ -80,7 +80,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       
    - E.g. If you are training your model to classify an `Avocado`, and you want the model to predict whether or not your image of a strawberry, `Strawberry.jpeg`, is an avocado, your final command should look something like: 
     
-      python3 predict.py 2000 .0007 ~/Desktop/FruitClassifier Avocado ~/Desktop/FruitClassifier/Strawberry.jpeg
+      ```python3 predict.py 2000 .0007 ~/Desktop/FruitClassifier Avocado ~/Desktop/FruitClassifier/Strawberry.jpeg```
       
    - After running the command above, your screen should look something like: 
    
