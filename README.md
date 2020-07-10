@@ -68,15 +68,15 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
     
 - [ ] Click on `fruits-360.gz` to decompress the file. 
 
-- [ ] Drag the image you want to classify into `FruitClassifier` and run: 
+- [ ] Drag the image you want to classify into the .../FruitClassifier directory. 
 
-- [ ] If you are not already in the \*/FruitClassifier directory, run: 
+- [ ] If you are not already in the .../FruitClassifier directory, run: 
 
-      cd */FruitClassifier
+       cd */FruitClassifier
       
 - [ ] Run the following command:
 
-    python3 + predict.py + your_current_directory + your_chosen_fruit + number_of_iterations + learning_rate + image_path
+      python3  predict.py  your_current_directory  your_chosen_fruit   number_of_iterations  learning_rate   image_path
 
   
     
