@@ -119,7 +119,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       
       # Drag an image for your model to predict into ~/Desktop/FruitClassifier.  (In this example, this has already been done for you.)
 
-      % python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
+      % python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg
 
 **Some tips:** 
 
