@@ -107,13 +107,13 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
          test accuracy: 56.36363636363637 %
          Prediction: Not a/an Avocado```
 
-**Example run-through of training a model to classify avocados, and then making a prediction on the image, `Strawberry.jpeg`.  Feel free to copy and paste commands, one at a time:** 
+- [ ] Example run-through of training a model to classify avocados, and then making a prediction on the image, `Strawberry.jpeg`.  Feel free to copy and paste commands, one at a time:** 
 
       cd ~/Desktop
       git clone https://github.com/elizabethgarza/FruitClassifier.git
       cd ~/Desktop/FruitClassifier
 
-...Download the data at https://www.kaggle.com/moltean/fruits/download and decompress. 
+      #...Download the data at https://www.kaggle.com/moltean/fruits/download and decompress. 
 
       mv ~/Downloads/fruits-360 ~/Desktop/FruitClassifier
       python3   predict.py   2000   .0007   ~/Desktop/FruitClassifier   Avocado   ~/Desktop/FruitClassifier/Strawberry.jpeg```
