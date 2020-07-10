@@ -58,7 +58,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
 
 **V.  Iterate over II-IV to optimize your parameters.**
 
-### To make a prediction...
+### To make your own fruit classifier and make a prediction...
 
 - [ ] Run the following commands:
 
@@ -66,7 +66,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       cd FruitClassifier
       curl -C - https://www.kaggle.com/moltean/fruits/5857-1166105-bundle-archive.zip -o "fruits-360.gz"
     
-- [ ] Click on `fruits-360.gz` to decompress the file. 
+- [ ] Go to the .../FruitClassifier directory and click on `fruits-360.gz` to decompress the file. 
 
 - [ ] Drag the image you want to classify into the .../FruitClassifier directory. 
 
@@ -76,7 +76,7 @@ Update *w* and *b* parameters by computing *(7)* and *(8)*, where α is the lear
       
 - [ ] Run the following command:
 
-      python3  predict.py  FruitClassifier_directory_path  fruit_that_you_want_to_classify   number_of_iterations  learning_rate   + predict_image_path
+      python3  predict.py  FruitClassifier_directory_path  fruit_that_you_want_to_classify   number_of_iterations  learning_rate predict_image_path
 
   
     
