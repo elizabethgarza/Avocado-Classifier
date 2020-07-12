@@ -1,4 +1,4 @@
-# AvocadoClassifier | Logistic regression with a neural network model
+# Avocado-classifier | Logistic regression with a neural network model
 
 ## Purpose statement
 
